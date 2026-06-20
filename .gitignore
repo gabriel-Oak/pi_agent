@@ -1,0 +1,12 @@
+# Auth & secrets
+auth.json
+
+# Caches
+mcp-cache.json
+mcp-npx-cache.json
+
+# Session logs (can grow large)
+sessions/
+
+# Node modules
+npm/node_modules/
