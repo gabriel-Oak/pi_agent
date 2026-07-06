@@ -1,9 +1,11 @@
 # Auth & secrets
 auth.json
+trust.json
 
 # Caches
 mcp-cache.json
 mcp-npx-cache.json
+cache
 
 # Session logs (can grow large)
 sessions/
