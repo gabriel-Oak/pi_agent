@@ -2,16 +2,22 @@
   "mcpServers": {
     "chrome-devtools": {
       "command": "npx",
-      "args": ["-y", "chrome-devtools-mcp@latest"]
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest"
+      ],
+      "directTools": true
     },
     "mdn": {
-      "url": "https://mcp.mdn.mozilla.net/"
+      "url": "https://mcp.mdn.mozilla.net/",
+      "directTools": true
     },
     "playwright": {
       "command": "npx",
       "args": [
         "@playwright/mcp@latest"
-      ]
+      ],
+      "directTools": true
     }
   }
 }

@@ -15,9 +15,10 @@
     }
   },
   "llamaServerUrl": "http://100.108.204.127:11434",
-  "lastChangelogVersion": "0.79.1",
+  "lastChangelogVersion": "0.80.2",
   "defaultProvider": "llama-server=http://100.108.204.127:11434",
-  "defaultModel": "qwen3.6-35b-mtp",
-  "defaultThinkingLevel": "high",
-  "hideThinkingBlock": true
+  "defaultModel": "ornith-35b-mtp-compact",
+  "defaultThinkingLevel": "xhigh",
+  "hideThinkingBlock": false,
+  "theme": "dark"
 }

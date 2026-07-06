@@ -12,3 +12,4 @@ sessions/
 
 # Node modules
 npm/node_modules/
+bin
