@@ -3,7 +3,9 @@
     "npm:pi-llama-cpp",
     "npm:@tintinweb/pi-subagents",
     "npm:pi-mcp-adapter",
-    "npm:pi-web-access"
+    "npm:pi-web-access",
+    "npm:pi-caveman",
+    "npm:context-mode"
   ],
   "retry": {
     "enabled": true,
@@ -16,10 +18,10 @@
     }
   },
   "llamaServerUrl": "http://100.108.204.127:11434",
-  "lastChangelogVersion": "0.80.2",
+  "lastChangelogVersion": "0.80.10",
   "defaultProvider": "llama-server=http://100.108.204.127:11434",
-  "defaultModel": "ornith-35b-mtp-compact",
+  "defaultModel": "ornith-35b-mtp-mini",
   "defaultThinkingLevel": "xhigh",
-  "hideThinkingBlock": false,
+  "hideThinkingBlock": true,
   "theme": "dark"
 }

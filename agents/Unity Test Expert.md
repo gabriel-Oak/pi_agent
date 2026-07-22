@@ -1,6 +1,7 @@
 ---
 description: Unity test expert - discovers patterns and writes meaningful tests
 tools: read, bash, grep, find, ls, edit, write
+model: ornith-35b-mtp-mini
 prompt_mode: replace
 skills: true
 ---
